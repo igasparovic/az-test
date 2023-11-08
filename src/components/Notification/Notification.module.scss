@@ -1,0 +1,39 @@
+.notificationContainer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  min-width: 300px;
+  height: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 1000;
+  color: #333;
+  background-color: #f4f4f4;
+  opacity: 0.95;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &.error {
+    background-color: #ffccd5;
+  }
+
+  &.warning {
+    background-color: #ffe4a1;
+  }
+
+  &.info {
+    background-color: #a1c4ff;
+  }
+
+  .closeButton {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 0.8em;
+    line-height: 1;
+    padding: 0;
+  }
+}

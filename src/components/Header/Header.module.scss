@@ -1,0 +1,16 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 80px;
+  background: #333;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
